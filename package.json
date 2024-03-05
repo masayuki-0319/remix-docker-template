@@ -8,7 +8,11 @@
     "dev": "remix dev --manual",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "start": "remix-serve ./build/index.js",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "compose:build": "docker compose build --no-cache",
+    "compose:up": "docker compose up -d --build",
+    "compose:down": "docker compose down --remove-orphans",
+    "compose:logs": "docker compose logs -f"
   },
   "dependencies": {
     "@remix-run/css-bundle": "^2.8.0",
