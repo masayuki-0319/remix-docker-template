@@ -1,0 +1,13 @@
+{
+  "version": "5",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1709643233608,
+      "tag": "0000_cynical_revanche",
+      "breakpoints": true
+    }
+  ]
+}
